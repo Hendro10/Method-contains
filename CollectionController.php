@@ -16,7 +16,7 @@ class CollectionController extends Controller
 
     public function collectionDua()
     {   //Collectoin dari berbagai type data
-        $collection = collect(["Belajar","Inventory","Enak Banget", 1, 2, 3, 4]);
+        $collection = collect(["Belajar","Laravel","Enak Banget", 1, 2, 3, 4]);
         echo $collection;
 
         echo "<br>";
